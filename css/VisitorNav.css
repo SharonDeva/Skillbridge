@@ -1,0 +1,13 @@
+
+/*------------------------Nav Bar---------------------------*/
+
+.navbar {
+    background-color: #1c3276;
+    margin-top: 0px;
+    position: sticky;
+    
+}
+
+#SkillNavbar {
+    color: white !important;
+}

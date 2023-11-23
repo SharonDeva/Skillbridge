@@ -1,0 +1,80 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 7, 2023, 11:27:01 AM
+    Author     : Silvia_Ignatius
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    /*background-color: #333;*/
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333; /* Dark background color */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    margin-left: 0px;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white; /* White text color for links */
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.sidebar-heading {
+    font-size: 24px;
+    padding: 20px 15px;
+    color: white;
+    font-weight: bold;
+}
+div.content {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 0px;
+    padding: 1px 16px;
+    height: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.logout-button{
+    margin: 10px;
+    float: right;
+}

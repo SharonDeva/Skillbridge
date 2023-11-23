@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #235391;
+  --secondary-color: #55c360;
+  --background-color: #f4f9fd;
+  --text-color: #010101;
+  --icon-color: #1d7a85;
+  --icon-hover-color: #0f6c74;
+  --container-bg-color: #ffffff;
+  --info-text-color: #bcbcbc;
+}
+.reqForm{
+    background-color: var(--background-color);
+}
+.container {
+  background-color: var(--container-bg-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container .form-label {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.container .form-control {
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.container .form-select {
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+.container .form-control:focus {
+  border-color: var(--secondary-color);
+}
+
+.container .form-select:focus {
+  border-color: var(--secondary-color);
+}
+
+.container .btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--container-bg-color);
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container .btn-primary:hover {
+  background-color: var(--icon-hover-color);
+}
+
+.container textarea {
+  resize: vertical;
+}
+
